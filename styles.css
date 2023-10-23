@@ -1,0 +1,48 @@
+body{
+
+    background-image: url("1.jpg");
+    background-size: cover;
+}
+
+
+.block {
+    background:yellow;
+    border: 5px solid silver;
+    border-radius: 15px;
+    opacity: 0.9;
+}
+.block1 {
+    background:#adcdd4;
+    height:150px;
+
+}
+.words{
+    color: blue;
+}
+.block.block2 >.words{
+    color:red;
+
+}
+
+.block2 {
+    background:#FA88F3;
+    margin-top: 10px;
+    height:110px;
+    width: 180px;
+    border: 5px solid #FDDB6C;
+    float: left;
+
+
+}
+.graph {
+    float: left;
+    margin-top: 10px; /* Добавляем немного отступа между блоком и картинкой, при необходимости */
+    margin-left: 200px; /* Добавляем немного отступа между блоком и картинкой, при необходимости */
+
+}
+.button:active{
+    background-color: green;
+}
+#R{
+    color: aqua;
+}
